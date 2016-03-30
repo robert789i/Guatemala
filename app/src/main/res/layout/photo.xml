@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20sp">
+
+    <ImageView
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/imagen"
+        android:src="@mipmap/android2"
+        android:id="@+id/ivDevuelvePicture" />
+
+    <ImageButton
+        android:layout_width="125sp"
+        android:layout_height="110sp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/imagen"
+        android:src="@mipmap/android3"
+        android:id="@+id/ibTomarPicture" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="75sp"
+        android:layout_gravity="center"
+        android:text="@string/set_wallpaper"
+        android:id="@+id/bSetWallpaper" />
+</LinearLayout>
