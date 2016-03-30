@@ -38,6 +38,7 @@ public class StartingPoint extends Activity {
             public void onClick(View v) {
                 contador--;
                 mostrar.setText("El total es " + contador);
+
             }
         });
     }
